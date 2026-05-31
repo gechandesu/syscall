@@ -4,7 +4,7 @@ module syscall
 #include <sys/mount.h>
 #include <signal.h>
 
-// syscall calls syscall indirectly.
+// C.syscall calls syscall indirectly.
 //
 // Example:
 // ```v
